@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- định dạng văn bản -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band - SonMMI</title> <!-- Tiêu đề -->
+    <link rel="icon" href="./assets/img/icon/iconSON.jpg" type="image/gif" sizes="16x16"> <!-- logo website -->
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- link tới file CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css"> <!-- link tới file CSS -->
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css"> <!-- link tới file ICON -->
+</head>
+<body>
+    <div id="main">
+        <!-- Begin: header -->
+        <div id="header"> <!-- phần trên cùng cố định -->
+
+            <!-- Begin: Nav -->
+            <ul id="nav"> <!-- unordered list: không theo danh sách -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i> <!-- navigation(nav): dẫn đường - arrow: mũi tên -->
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
+
+            <!-- Mobile Menu Button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!-- Search Button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+
+
+        </div>
+        <!-- End: header -->
+
+        <!-- Begin: Slider-->
+        <div id="slider"> <!-- ảnh động -->
+            <div class="text-content"> <!-- nội dung văn bản -->
+                <h2 class="text-heading">New York</h2>
+                <div class="text-description">Thank you, Chicago - A night we won't forget.</div>
+            </div>
+        </div>
+        <!-- End: Slider-->
+
+        <!-- Begin:Content -->
+        <div id="content">
+
+            <!-- Begin: About section -->
+            <div id="band" class="content-section"> <!-- section: phần -->
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text"> <!-- về văn bản -->
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="row members-list"> <!-- row: hàng -->
+                    <div class="col col-third s-col-full mt-32 member-item"> <!-- column(col): cột -->
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/member.jpg" alt="name" class="member-img">
+                    </div>
+
+                    <div class="col col-third s-col-full mt-32 member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/member.jpg" alt="name" class="member-img">
+                    </div>
+
+                    <div class="col col-third s-col-full mt-32 member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/member.jpg" alt="name" class="member-img">
+                    </div>
+                </div>
+            </div>
+            <!-- End: About section -->
+
+            <!-- Begin: Tour section -->
+            <div id="tour" class="tour-section"> <!-- tạo background đen-->
+                
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    
+                    <!-- Tickets -->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li> <!-- sold out: bán hết -->
+                        <li>October <span class="sold-out">Sold out</span></li> <!-- thẻ "SPAN": dùng cho thay đổi trong cùng 1 dòng -->
+                        <li>November <span class="quantity">3</span></li> <!-- quatity: số lượng -->
+                    </ul>
+
+                    <!-- Places -->
+                    <div class="row places-list">
+
+                        <!-- ảnh 1 -->
+                        <div class="col col-third s-col-full mt-16"> <!-- 2 phần: 1.img - 2.div -->
+                            <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
+                            <div class="place-body"> <!-- 4 phần: 1.h3 - 2,3.p - 4.a(button)-->
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2021</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <!-- ảnh 2 -->
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2021</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <!-- ảnh 3 -->
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/places/place3.jpg" alt="San Francisco" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2021</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End: Tour section -->
+
+            <!-- Begin: Contact section -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                
+                <div class="row contact-content"> <!-- chung 1 dòng -->
+                    <!-- info -->
+                    <div class="col col-half s-col-full contact-info"> <!-- chia thành 2 cột -->
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+00 151515">+00 151515</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                    </div>
+
+                    <!-- form -->
+                    <div class="col col-half s-col-full contact-form"> <!-- chia thành 2 cột -->
+                        <form action=""> <!-- phần nhập INPUT có Send -->
+                            <div class="row"> <!-- chung 1 dòng -->
+                                <div class="col col-half s-col-full "> <!-- chung 1 cột nhưng chia đôi -->
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half s-col-full s-mt-8"> <!-- chung 1 cột nhưng chia đôi -->
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            
+                            <div class="row mt-8"> <!-- chung 1 dòng và cách top 8px-->
+                                <div class="col col-full"> <!-- chung cột -->
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control"> <!-- placeholder: tạo chữ mờ input, required: bắt nhập input-->
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn btn pull-right mt-16 s-full-width" type="submit" value="SEND"> <!-- chạy khi ấn send -->
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End: Contact section -->
+
+            <!-- Begin: Map -->
+            <div class="map-section">
+                <img src="./assets/img/places/map.jpg" alt="Map">
+            </div>
+            <!-- End: Map -->
+
+        </div>
+        <!-- End:Content -->
+
+        <!-- Begin: Footer -->
+        <div id="footer"> <!-- phần cuối liên hê...-->
+            <div class="socials-list"> <!-- social: xã hội-->
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest "></i></a>
+                <a href=""><i class="ti-twitter-alt"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">DVS</a></p> <!-- Bản quyền-->
+            
+        </div>
+        <!-- End: Footer -->
+
+    </div>
+
+    <script>
+
+        //Đóng mở moblie-menu
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        mobileMenu.onclick = function(){
+            var isClosed = header.clientHeight === headerHeight;
+
+            if(isClosed){
+                header.style.height = 'auto';
+            }
+            else{
+                header.style.height = null;
+            }
+        }
+
+        //Tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href *= "#"]');
+        for( var i = 0; i < menuItems.length ; i++){
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function(event){
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu){
+                    event.preventDefault();
+                } 
+                else {
+                    header.style.height = null;
+                }
+
+            }
+        }
+
+
+    </script>
+
+
+</body>
+</html>
